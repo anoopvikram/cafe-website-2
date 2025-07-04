@@ -65,10 +65,10 @@ body {
     }
 
     nav {
-        @apply fixed z-50 w-full px-5;
+        @apply fixed z-50 w-49/50 px-5 rounded-4xl my-5 mx-4;
 
         div {
-            @apply flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 lg:px-0 px-5 container mx-auto;
+            @apply flex md:flex-row flex-col md:justify-between items-center gap-5 py-2 lg:px-0 px-5 container mx-auto;
         }
 
         p {

@@ -28,7 +28,7 @@ const Beverages = () => {
         })
     })
   return (
-    <section id="beverages" className='noisy'>
+    <section id="beverages" className='noisy rounded-b-4xl'>
         <img src="images/hero-left-leaf.png" alt="left-leaf" id="b-left-leaf"/>
         <img src="images/hero-right-leaf.png" alt="right-leaf" id="b-right-leaf"/>
 
