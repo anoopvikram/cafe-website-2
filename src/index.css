@@ -65,7 +65,7 @@ body {
     }
 
     nav {
-        @apply fixed z-50 w-full;
+        @apply fixed z-50 w-full px-5;
 
         div {
             @apply flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 lg:px-0 px-5 container mx-auto;
@@ -92,7 +92,7 @@ body {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
         h1 {
-            @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
+            @apply md:mt-32 mt-40 text-7xl md:text-[15vw] leading-none text-center font-modern-negra;
         }
 
         .left-leaf {
@@ -117,7 +117,7 @@ body {
                     @apply 2xl:text-start text-center;
                 }
 
-                .view-cocktails {
+                .view-menu {
                     @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full;
 
                     p {
@@ -136,25 +136,26 @@ body {
         @apply w-full md:h-[80%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover;
     }
 
-    #cocktails {
+    #beverages {
         @apply relative min-h-dvh w-full overflow-hidden;
 
-        #c-left-leaf {
-            @apply absolute left-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
+        #b-left-leaf {
+            @apply absolute left-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/5 max-w-80;
+
         }
 
-        #c-right-leaf {
-            @apply absolute right-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
+        #b-right-leaf {
+            @apply absolute right-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/5 max-w-80;
         }
 
         .list {
             @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 2xl:px-0 px-5;
 
-            .popular {
+            .foods {
                 @apply space-y-8 w-full md:w-fit;
             }
 
-            .loved {
+            .beverages {
                 @apply space-y-8 w-full md:w-fit pb-20 md:pb-0;
             }
 
@@ -324,7 +325,7 @@ body {
                 @apply space-y-4 lg:translate-y-20;
 
                 #title {
-                    @apply font-modern-negra md:text-6xl text-3xl text-yellow max-w-40;
+                    @apply font-modern-negra md:text-5xl text-2xl text-yellow max-w-40;
                 }
             }
 
