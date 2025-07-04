@@ -29,8 +29,7 @@ const Beverages = () => {
     // })
   return (
     <section id="beverages" className='noisy rounded-b-4xl'>
-
-        <div className='list justify-evenly'>
+        <div className='list w-45/50 '>
             <div className='foods'>
                 <h2>Food Items: </h2>
                 <ul>{foodLists.map(({name, category, detail, price})=>(
