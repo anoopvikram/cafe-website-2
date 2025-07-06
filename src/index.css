@@ -242,6 +242,8 @@ body {
     }
 
     #art {
+
+        
         @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
 
         h2 {
@@ -252,17 +254,17 @@ body {
             @apply flex md:flex-row flex-col justify-between md:mb-16 md:mt-0 mt-40 gap-10;
         }
 
-        .cocktail-img {
+        .coffee-img {
             @apply md:w-[60vw] w-full h-[50vh] md:h-[70vh] rounded-4xl overflow-hidden absolute top-0 md:top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2;
         }
 
         .masked-container {
             h2 {
-                @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
+                @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-10;
             }
 
             div {
-                @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-52 left-1/2 -translate-x-1/2;
+                @apply flex opacity-0 md:px-0 px-5 space-y-5  flex-col text-center align-middle md:bottom-5 ;
 
                 h3 {
                     @apply md:text-5xl text-2xl text-center font-serif md:w-full w-80 text-white;
@@ -286,7 +288,7 @@ body {
             @apply object-contain absolute -top-40 right-0 md:w-fit w-1/4;
         }
 
-        .cocktail-tabs {
+        .food-tabs {
             @apply grid md:grid-cols-4 grid-cols-2 md:gap-20 gap-10 sm:mb-32 mb-20 relative z-10 md:max-w-6xl md:mx-auto;
 
             button {
@@ -310,7 +312,7 @@ body {
             }
         }
 
-        .cocktail {
+        .food {
             @apply flex-center mt-10;
 
             img {

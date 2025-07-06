@@ -1,7 +1,7 @@
 const navLinks = [
   { id: "menu", title: "Menu" },
   { id: "about", title: "About Us" },
-  { id: "gallery", title: "Gallery" },
+  { id: "art", title: "The Art" },
   { id: "contact", title: "Contact" },
 ];
 
